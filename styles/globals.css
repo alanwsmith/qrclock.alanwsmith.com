@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black;
+    @apply text-gray-300;
+  }
+  a {
+    @apply text-blue-400;
+  }
+  h1 {
+    @apply text-3xl;
+    @apply font-bold;
+    @apply pb-2;
+  }
+  h2 {
+    @apply text-2xl;
+    @apply font-bold;
+    @apply pb-2;
+  }
+  h3 {
+    @apply text-xl;
+    @apply font-bold;
+    @apply pb-2;
+  }
+  ul {
+    @apply pb-6;
+  }
+}

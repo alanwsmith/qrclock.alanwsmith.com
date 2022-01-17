@@ -9,13 +9,14 @@ export default function Home() {
   // const renderClock = () => {
   //   console.log('here')
   // }
+  //
 
   const updateClock = () => {
     var canvas = document.getElementById('canvas')
     QRCode.toCanvas(
       canvas,
-      new Date().toLocaleTimeString(),
-      { width: 600, color: { dark: '#342353ff', light: '#000000FF' } },
+      `https://qrclock.alanwsmith.com/the-time-is/${Date.now()}`,
+      { width: 500, color: { dark: '#9b1aebff', light: '#00000000' } },
       function (error) {
         if (error) console.error(error)
       }
@@ -36,8 +37,8 @@ export default function Home() {
         type="website"
         url="https://qrclock.alanwsmith.com"
       />
-      <div className="mx-auto max-w-prose">
-        <canvas width="500" height="500" id="canvas"></canvas>
+      <div className="flex justify-center">
+        <canvas id="canvas"></canvas>
       </div>
     </div>
   )

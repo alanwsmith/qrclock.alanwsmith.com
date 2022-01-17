@@ -5,7 +5,15 @@
 @layer base {
   body {
     @apply bg-black;
-    @apply text-gray-300;
+    @apply text-blue-900;
+    @apply text-lg;
+  }
+  #theGif {
+    background-image: url('/images/rick-roll-qr-clock.gif');
+    background-size: 100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height: 100vh;
   }
   a {
     @apply text-blue-400;

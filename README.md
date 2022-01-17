@@ -1,10 +1,15 @@
-# Next.js App Starter by Alan W. Smith
+# qrclock.alanwsmith.com
 
 ## Overview
 
-This is my app starter. It has tailwind
-installed along with a few default styles
-and some basic favicons and an og image.
+I wanted to see what would happen if you
+encoded time into a QR code. This is it.
 
-It includes a basic components/LayoutMain
-file for a global layout.
+## Ideas
+
+- Make the QR code go to a page on the site that tells
+  you the time you scanned it.
+- Slow it down to every 5 or 10 sec to see what that
+  looks like
+- On the page that tells you the time put in a rick
+  astley gif

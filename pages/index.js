@@ -24,7 +24,7 @@ export default function Home() {
   }
 
   useEffect(() => {
-    const intervalId = setInterval(updateClock, 1000)
+    const intervalId = setInterval(updateClock, 2000)
     return () => clearInterval(intervalId)
   }, [])
 

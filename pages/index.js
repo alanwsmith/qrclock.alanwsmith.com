@@ -16,7 +16,7 @@ export default function Home() {
     QRCode.toCanvas(
       canvas,
       `https://qrclock.alanwsmith.com/the-time-is/${Date.now()}`,
-      { width: 500, color: { dark: '#9b1aebff', light: '#00000000' } },
+      { width: 400, color: { dark: '#9b1aebff', light: '#00000000' } },
       function (error) {
         if (error) console.error(error)
       }
@@ -24,7 +24,7 @@ export default function Home() {
   }
 
   useEffect(() => {
-    const intervalId = setInterval(updateClock, 2000)
+    const intervalId = setInterval(updateClock, 2300)
     return () => clearInterval(intervalId)
   }, [])
 

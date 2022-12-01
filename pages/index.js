@@ -46,6 +46,10 @@ export default function Home() {
           <br />
           <a href="https://www.alanwsmith.com">main site</a> ~{'  '}
           <a href="https://links.alanwsmith.com">other sites</a> ~{' '}
+          <a href="https://github.com/alanwsmith/qrclock.alanwsmith.com">
+            repo
+          </a>{' '}
+          ~{'  '}
           <a href="https://podcast.alanwsmith.com">podcast</a> ~{' '}
           <a href="https://twitter.com/TheIdOfAlan">twitter</a> ~{' '}
           <a href="https://hachyderm.io/@TheIdOfAlan">mastodon</a>

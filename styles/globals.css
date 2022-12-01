@@ -15,6 +15,18 @@
     background-attachment: fixed;
     height: 100vh;
   }
+  #wrapper {
+    display: grid;
+    min-height: max(500px, 99vh);
+    grid-template-rows: 1fr auto;
+  }
+  #theClock {
+    justify-self: center;
+    align-self: center;
+  }
+  footer {
+    text-align: center;
+  }
   a {
     @apply text-blue-400;
   }

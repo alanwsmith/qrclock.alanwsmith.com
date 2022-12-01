@@ -37,8 +37,19 @@ export default function Home() {
         type="website"
         url="https://qrclock.alanwsmith.com"
       />
-      <div className="flex justify-center">
-        <canvas id="canvas"></canvas>
+      <div id="wrapper">
+        <div id="theClock">
+          <canvas id="canvas"></canvas>
+        </div>
+        <footer>
+          from alan w. smith
+          <br />
+          <a href="https://www.alanwsmith.com">main site</a> ~
+          <a href="https://links.alanwsmith.com">other sites</a> ~
+          <a href="https://podcast.alanwsmith.com">podcast</a> ~
+          <a href="https://twitter.com/TheIdOfAlan">twitter</a> ~
+          <a href="https://hachyderm.io/@TheIdOfAlan">mastodon</a>
+        </footer>
       </div>
     </div>
   )

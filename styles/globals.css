@@ -49,4 +49,8 @@
   ul {
     @apply pb-6;
   }
+  #msg {
+    text-align: center;
+    font-size: 2rem;
+  }
 }

@@ -39,6 +39,7 @@ export default function Home() {
       />
       <div id="wrapper">
         <div id="theClock">
+          <div id="msg">the current time is:</div>
           <canvas id="canvas"></canvas>
         </div>
         <footer>
